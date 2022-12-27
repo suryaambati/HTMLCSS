@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q-13</title>
+    <style>
+      .calc {
+        width: 260px;
+        background: #CFCFCF;
+        margin: 100px auto 0 auto;
+        border-radius: 5px;
+        padding: 20px
+      }
+      .display {
+        color: rgba(255,255,255,0.8);
+        background: rgba(0,0,0,.6);
+        font-size: 35px;
+        padding: 10px;
+        text-align: right;
+        border-radius: 5px;
+      }
+      .display-main {
+        height: 38px;
+      }
+      .row {
+        margin-left: -12px;
+        margin-top: 10px;
+      }
+      .row:after, .bottom-row:after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+      .button { 
+        height: 50px;
+        color: #3A3A38;
+        font-size: 16px;  
+        font-weight: 700;
+        text-align: center;
+        padding: 9px 0 11px 0;
+        border-radius: 5px;
+        float: left;
+        width: 56px;
+        background: #F5F5F5;
+        margin-left: 12px;
+        text-transform: uppercase;
+        border: 0;  
+        cursor:pointer;      
+      }
+      .c {
+        background-color: #C1FFC1;
+      }
+      .eq {
+        background-color: #F4F776;
+      }
+      </style>
+</head>
+<body>
+    <div class="container">
+        <div class="calc">
+          <div class="display">
+            <div class="display-main">
+              0
+            </div> 
+          </div>      
+          <div class="row">
+            <button class="button">7</button>
+            <button class="button">8</button>
+            <button class="button">9</button>
+            <button class="button">+</button>
+          </div>
+      
+          <div class="row">
+            <button class="button">4</button>
+            <button class="button">5</button>
+            <button class="button">6</button>
+            <button class="button">-</button>
+          </div>
+            
+          <div class="row">
+            <button class="button">1</button>
+            <button class="button">2</button>
+            <button class="button">3</button>
+            <button class="button">*</button>
+          </div>
+              
+          <div class="row">
+            <button class="button">0</button>
+            <button class="button">/</button>
+            <button class="button c">c</button>
+            <button class="button eq">=</button>
+          </div>
+        </div>
+</body>
+</html>

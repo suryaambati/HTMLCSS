@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Q-11-Home</title>
+    <style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        text-decoration: none;
+    }
+    .header-nav{
+        width:100%;
+        height:3rem;
+        background-color: #39B7CD	;
+        color:#fff;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 50px;
+    }
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        gap: 5px;
+    }
+    .nav-link {
+        color: #fff;
+    }
+    .menu::after {
+        content: " |";
+        color: #fff;
+    }
+    .email::after{
+        content: "\f0e0";
+        font-family: FontAwesome;
+    }
+    .mobile::after{
+        content: "\f67d";
+        font-family: FontAwesome;
+    }
+    .section-1 {
+        width: 90%;
+        display: flex;
+        margin: auto;
+        justify-content: space-between;
+        padding: 30px 0;
+    }
+    .left-div{
+        width: 35%;
+    }
+    .right-div{
+        width: 60%;
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .img-cover {
+        object-fit: fill;
+        width: 100%;
+    }
+    .btn-more{
+        padding: 10px;
+        background-color: #39B7CD;
+        border: none;
+        color: #fff;
+    }
+    .footer{
+        width: 100%;
+        height: 2rem;
+        background-color: #39B7CD;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header-nav">
+            <h2>AutoMob-Mechanic</h2> 
+            <div class="navbar">
+                <a class="nav-link menu" href="">Home</a>
+                <a class="nav-link menu" href="">Login</a>
+                <a class="nav-link email" href="">Contact@gmail.com</a>
+                <a class="nav-link mobile" href="">999-999-999</a>
+            </div>            
+        </div>
+        <section class="section-1">
+            <div class="left-div">
+                <img class="img-cover" src="https://media.istockphoto.com/id/879696440/photo/mechanic-hand-checking-and-fixing-a-broken-car-in-car-service-garage.jpg?s=612x612&w=is&k=20&c=2Hru71y6VN84sZWiYYbOJbZbgEbPo8-kB3Te2UgjT-Q=" alt="">
+            </div>
+            <div class="right-div">
+                <h2>About Us</h2>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit"</p>
+                <p>Tincidunt tortor aliquam nulla facilisi cras fermentum odio eu feugiat.</p>
+                <h2>How it workes?</h2>
+                <h5>Choose the Service</h5>
+                <p>Orci a scelerisque purus semper eget</p>
+                <div>
+                    <button class="btn-more">Explore More</button>
+                </div>
+                
+                
+            </div>
+        </section>
+        <div class="footer">
+            <h5>Copyright@2022 AutoMob-Mechanic. All rights reserved</h5>
+        </div>
+    </div>
+</body>
+</html>

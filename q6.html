@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        text-decoration: none;
+    }
+    body {
+        background-color: #32CC99	;
+    }
+    .section-1{
+        width: 90%;       
+        margin: auto;
+        padding: 30px 0;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .section-1 h2 {
+        font-weight: 700;
+        font-size: 32px;
+    }
+    .section-2{
+        display: flex;
+        width: 90%;       
+        margin: 30px auto;
+    }
+    .left-div {
+        width: 60%;
+        background-color: #fff;
+        padding: 40px;
+    }
+    .right-div {
+        width: 40%;
+        background-color: #3232CD	;
+        padding: 40px;
+        color: #fff;
+    }
+    label {
+        display: inline-block;
+        margin-bottom: 5px;
+    }
+    .form-row {
+        display: flex;
+    }
+    .form-group {
+        padding: 5px;
+        width: 50%;
+    }
+    .form-group input {
+        width: 100%;
+    }
+    .left-div h3{
+        color: #3232CD;
+    }
+    .form-section {
+        padding: 25px 0;
+        color: #3232CD;
+        font-weight: 400;
+    }
+    input[type=text], input[type=email]{
+        margin: 10px 0;
+        outline: none;
+        padding: 5px;
+        box-sizing: border-box;
+        border-top-style: hidden;
+        border-right-style: hidden;
+        border-left-style: hidden;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+    }
+    .btn-submit {
+        background-color: #3232CD;
+        color: #fff;
+        padding: 10px 30px;
+        border: none;
+        border-radius: 20px;
+        font-size: 18px;
+    }
+    .contact-details{
+        /* display: flex;
+        gap: 30px; */
+        margin: 40px 0;
+    }
+    .details{
+        display: flex;
+        gap: 30px;
+        margin: 30px 0;
+        align-items: center;
+    }
+</style>
+<body>
+    <div class="container" >
+        <section class="section-1">
+            <h2>Connect with Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+        </section>
+        <section class="section-2">
+            <div class="left-div">
+                <h3>Send you Request</h3>
+                <form class="form-section">
+                    <div class="form-row">
+                      <div class="form-group">
+                        <label for="name">Name</label>
+                        <input id="name" type="text">
+                      </div>
+                      <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input id="phone" type="text">
+                      </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="form-group">
+                        <label for="email">Email</label>
+                        <input id="email" type="email">
+                      </div>
+                      <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input id="subject" type="text">
+                      </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="subject">Message</label>
+                            <textarea name="" id="message" cols="72" rows="10"></textarea>
+                        </div>
+                    </div>
+                    <div>
+                        <input class="btn-submit" type="submit" value="Send">
+                    </div>
+                    
+                  </form>
+            </div>
+            <div class="right-div">
+                <h3>Reach Us</h3>
+                <div class="contact-details">    
+                    <div class="details">
+                        <span>Email</span>
+                        <span>contactus@email.com</span>
+                    </div> 
+                    <div class="details">
+                        <span>Phone</span>
+                        <span>+123456789</span>
+                    </div> 
+                    <div class="details">
+                        <span>Address</span>
+                        <span>
+                            Orci a scelerisque
+                            <br>
+                            Orci a scelerisque
+                            <br>
+                            Orci a scelerisque
+                        </span>
+                    </div>                
+                    
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

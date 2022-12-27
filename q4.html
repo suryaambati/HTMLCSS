@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q-4</title>
+    <style>
+    .sec-1{
+        width: 45%;
+        margin: auto;
+        padding: 10px;
+    }
+    .align-block { 
+        display: inline-block; 
+        width: 140px; 
+        text-align: right; 
+    }
+    input[type=text], input[type=email], input[type=checkbox], input[type=radio] {
+        margin: 10px 0;
+        outline: none;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+    select {
+        margin: 10px 0;
+        outline: none;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+    .btn-section{
+        margin: 20px 0;
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <section class="sec-1">
+            <h2>Dine Booking</h2>
+                <div>
+                <form action="">
+                    <div>
+                        <label  class="align-block" for="visitor_name">Visitor Name: </label>
+                        <input type="text" name="visitor_name" id="visitor_name">
+                    </div>
+                    <div>
+                        <label  class="align-block" for="members">Number of members: </label>
+                        <input type="text" name="members" id="members">
+                    </div>
+                    <div >
+                        <label  class="align-block" for="phone">Contact Number: </label>
+                        <input type="text" name="phone" id="phone">
+                    </div>
+                    <div>
+                        <label  class="align-block" for="phone">Email: </label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div>
+                        <label  class="align-block" for="phone">Type of food: </label>
+                        <input type="checkbox" id="south-indian" name="food" value="south-indian" checked>
+                        <label for="vehicle1">South Indian</label>
+                        <input type="checkbox" id="north-indian" name="food" value="north-indian">
+                        <label for="vehicle2">North Indian</label>
+                        <input type="checkbox" id="chinese" name="food" value="chinese">
+                        <label for="vehicle2">Chinese</label>
+                        <input type="checkbox" id="western" name="food" value="western">
+                        <label for="vehicle2">Western</label>
+                    </div>
+                    <div>
+                        <label  class="align-block" for="room">Room Status: </label>
+                        <input type="radio" id="ac" name="room" value="ac">
+                        <label for="html">AC</label>
+                        <input type="radio" id="non-ac" name="room" value="non-ac" checked>
+                        <label for="html">Non-AC</label> 
+                    </div>
+                    <div>
+                        <label class="align-block" for="venue">Venue Preference: </label>
+                        <select name="venue" id="venue">
+                            <option value="">Select</option>
+                            <option value="Venue1">Venue 1</option>
+                            <option value="Venue2">Venue 2</option>
+                        </select>
+                    </div>
+                    <div class="btn-section">
+                        <input type="submit" value="Book">
+                        <input type="submit" value="Reset">
+                    </div>
+                </form>
+                </div>
+        </section>
+    </div>
+</body>
+</html>

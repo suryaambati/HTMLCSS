@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Q-11-2-Services</title>
+  <style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        text-decoration: none;
+    }
+    .header-nav{
+        width:100%;
+        height:3rem;
+        background-color: #39B7CD	;
+        color:#fff;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 50px;
+    }
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        gap: 5px;
+    }
+    .nav-link {
+        color: #fff;
+    }
+    .menu::after {
+        content: " |";
+        color: #fff;
+    }
+    .email::after{
+        content: "\f0e0";
+        font-family: FontAwesome;
+    }
+    .mobile::after{
+        content: "\f67d";
+        font-family: FontAwesome;
+    }
+    .section-1 {
+      width: 90%;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      padding: 30px 0;
+    }
+    .section-2{
+      width: 90%;
+      display: flex;
+      margin: auto;
+      justify-content: space-around;
+      padding: 20px 0;
+    }
+    .image-card {
+      text-align: center;
+      border: 1px solid #CDCDCD;
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .btn-more {
+      padding: 5px 10px;
+      background-color: #39B7CD;
+      color: #fff;
+      border: none;
+    }
+    .footer{
+        width: 100%;
+        height: 2rem;
+        background-color: #39B7CD;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header-nav">
+      <h2>AutoMob-Mechanic</h2> 
+      <div class="navbar">
+          <a class="nav-link menu" href="">Home</a>
+          <a class="nav-link menu" href="">Login</a>
+          <a class="nav-link email" href="">Contact@gmail.com</a>
+          <a class="nav-link mobile" href="">999-999-999</a>
+      </div>            
+    </div>
+    <section class="section-1">
+      <h2>Car Repair and Service</h2>
+      <p>Nulla posuere sollicitudin aliquam ultrices sagittis orci a.</p>
+      <p>Nulla posuere sollicitudin aliquam ultrices sagittis orci a.</p>
+    </section>
+    <section class="section-2">
+      <div class="image-card">
+        <h3>Auctor elit sed</h3>
+        <img src="./img/car.png" alt="">
+        <p>Sit amet mauris commodo</p>
+        <p>offer:20%</p>
+        <div>
+          <button class="btn-more">More Details</button>
+        </div>
+        
+      </div>
+      <div class="image-card">
+        <h3>Auctor elit sed</h3>
+        <img src="./img/car.png" alt="">
+        <p>Sit amet mauris commodo</p>
+        <p>offer:10%</p>
+        <div>
+          <button class="btn-more">More Details</button>
+        </div>
+      </div>
+      <div class="image-card">
+        <h3>Auctor elit sed</h3>
+        <img src="./img/car.png" alt="">
+        <p>Sit amet mauris commodo</p>
+        <p>offer:30%</p>
+        <div>
+          <button class="btn-more">More Details</button>
+        </div>
+      </div>
+    </section>
+    <div class="footer">
+      <h5>Copyright@2022 AutoMob-Mechanic. All rights reserved</h5>
+    </div>
+  </div>
+</body>
+</html>
