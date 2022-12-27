@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XYZ online pizza delivery </title>
+    <style>
+        {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .myheading1 {
+
+            font-size: 20px;
+            font-style: normal bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+           .myheading2 {
+
+            font-size: 18px;
+            font-style: normal bold;
+        }
+    </style>
+
+</head>
+
+<body>
+    <table border="1" width="500px" align="center">
+
+        <tr>
+            <td colspan="2" align="center"><label class="myheading1"> XYZ online pizza delivery </label> </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center"> <label class="myheading2"> Personal Details </label> </td>
+        </tr>
+        <tr>
+            <td width="30%"> First Name</td>
+            <td width="70%"> <input type="text" name="fname" maxlength="20"></td>
+        </tr>
+        <tr>
+            <td width="30%"> Phone Number</td>
+            <td width="70%"> <input type="number" name="phonenumber" minlength="10"></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <label class="myheading2">Order Details </label>
+            </td>
+        </tr>
+
+        <tr>
+            <td width="30%"> size</td>
+            <td width="70%">
+                <input type="radio" name="size">small</input>
+                <input type="radio" name="size">medium</input>
+                <input type="radio" name="size">laqrge</input>
+            </td>
+        </tr>
+
+
+
+
+
+        <tr>
+            <td width="30%"> Base</td>
+            <td width="70%">
+                <select name="base" id="">
+                    <option id="panPizza">PanPizza</option>
+                    <option id="chesecurst">Chease Crust</option>
+                    <option id="chickenstuffedcrust">Chicken Stuffed Crust</option>
+
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td width="30%"> Tapping</td>
+            <td width="70%">
+                <input type="checkbox" name="cheese" id="cheese">Cheese </input>
+                <input type="checkbox" name="olive" id="olive">Olive </input>
+                <input type="checkbox" name="tomoto" id="tomoto">Tomoto </input>
+                <input type="checkbox" name="capsicum" id="capsicum">Capsicum </input>
+                <input type="checkbox" name="jalapenos" id="jalapenos">Jalapenos </input>
+                <input type="checkbox" name="mushrooms" id="mushrooms">Mushrooms </input>
+                <input type="checkbox" name="pepperoni" id="pepperoni">Pepperoni </input>
+                <input type="checkbox" name="onion" id="onion">onion </input>
+
+
+
+
+
+
+            </td>
+        </tr>
+
+        <tr>
+            <td width="30%"> Aditional Details</td>
+            <td width="70%">
+               <textarea cols="30" rows="2" name="adddeteail"></textarea>
+                
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <label class="myheading2">Confirm Details and proceed to pay
+                    <input type="radio" name="confim">Yes </input>
+                    <input type="radio" name="confim">No </input>
+                </label>
+            </td>
+
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <input type="submit" value="Submit" />
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
